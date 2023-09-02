@@ -11,7 +11,7 @@ spec:
     path: dev
     helm:
       version: v2
-      # releaseName: sealed-secrets # test
+      # releaseName: sealed-secrets
   destination:
     server: https://kubernetes.default.svc
     namespace: default
