@@ -7,7 +7,7 @@ spec:
   project: helm-test
   source:
     repoURL: https://github.com/MrAbderrahmane/test-argo-helm.git
-    targetRevision: v1.*
+    targetRevision: "v1.*"
     path: dev
     helm:
       version: v2
